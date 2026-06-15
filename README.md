@@ -67,7 +67,6 @@ PYTHONPATH=. ./venv/bin/python server/main.py
 * **Cloud Mode**: If `GEMINI_API_KEY` is detected, the server routes all queries directly to Google Gemini for ultra-low latency response times.
 
 Access the chatbot web interface in your browser:
-👉 **http://localhost:8000**
 
 ---
 

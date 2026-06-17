@@ -1,0 +1,24 @@
+# OS Reply Engine — All Dependencies
+# Core ML
+torch>=2.1.0
+numpy>=1.24.0
+tiktoken>=0.5.0
+
+# Data
+datasets>=2.14.0
+
+# Backend
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+pydantic>=2.0.0
+
+# Training (optional)
+wandb>=0.16.0
+tqdm>=4.66.0
+matplotlib>=3.8.0
+
+# LLM Integration
+transformers>=4.38.0
+accelerate>=0.26.0
+google-generativeai>=0.3.0
+
